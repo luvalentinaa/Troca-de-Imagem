@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Troca de Imagens</title>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Duas maneiras de fazer Troca de Imagem ao passar o Mouse</h1>
+    </header>
+    <section>
+      <figure id="fig1">
+        <figcaption>Usando mouseover / mouseout</figcaption>
+        <img
+          src="./src/fig-1.png"
+          alt=""
+          onmouseover="this.src='./src/fig-2.png'"
+          onmouseout="this.src='./src/fig-1.png'"
+        />
+      </figure>
+    </section>
+    <section>
+      <figure id="fig">
+        <figcaption>Usando Css</figcaption>
+      </figure>
+    </section>
+  </body>
+</html>
