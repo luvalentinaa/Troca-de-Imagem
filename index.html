@@ -12,20 +12,20 @@
     <header>
       <h1>Duas maneiras de fazer Troca de Imagem ao passar o Mouse</h1>
     </header>
-    <section>
+    <section class="section-1">
       <figure id="fig1">
-        <figcaption>Usando mouseover / mouseout</figcaption>
+        <figcaption>1 - Usando MouseOver / MouseOut</figcaption>
         <img
           src="./src/fig-1.png"
           alt=""
-          onmouseover="this.src='./src/fig-2.png'"
-          onmouseout="this.src='./src/fig-1.png'"
+          onmouseover="this.src='./src/fig-1.png'"
+          onmouseout="this.src='./src/fig-2.png'"
         />
       </figure>
     </section>
-    <section>
+    <section class="section-2">
+      <figcaption>2 - Usando Css</figcaption>
       <figure id="fig">
-        <figcaption>Usando Css</figcaption>
       </figure>
     </section>
   </body>

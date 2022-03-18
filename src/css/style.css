@@ -4,37 +4,48 @@ body{
 header {
   width: 100%;
   max-width: 1000px;
-  background-color: #e20d66;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
   color: #fff;
 }
-header h1:hover {
-  content: 'Luciana Valentina';
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  max-width: 1000px;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px dotted #f50f82;
 }
-section {
-  background-color: #a5edf7;
+.section-2  {
   width: 100%;
   height: 89vh;
   max-width: 1000px;
   border-radius: 20px;
-  margin: 20px auto;
-  padding: 30px;
-  display: flex;
+  margin: auto;
+  padding: 20px;
+  display:block;
   justify-content: space-around;
+  border: 2px dotted #22f50f;
 }
+
 figure,
 figure img {
+  display: block;
+  margin: auto;
   width: 450px;
   height: 500px;
 }
 figcaption{
   font-size: 2rem;
-  margin-bottom: 1rem;
   text-align: center;
-  color: #eb087a;
+  color: #f79fcb;
 }
+
 #fig {
   background: url(../1.png) center no-repeat;
   background-size: cover;
