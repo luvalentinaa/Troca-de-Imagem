@@ -1,11 +1,11 @@
 # Troca de imagens 🎯
-##Fazer troca de imagem ao passar o mouse ,  com CSS e Mouseout / Mouseover 🖱 !
+## Fazer troca de imagem ao passar o mouse ,  com CSS e Mouseout / Mouseover 🖱 !
 
-###Linguagens utilizadas 
+### Linguagens utilizadas  
 
--HTML
+- HTML
 
--CSS
+- CSS
 
 [
 <img src="gif_age.gif">
